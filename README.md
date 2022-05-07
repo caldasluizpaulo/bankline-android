@@ -15,3 +15,8 @@ Consumo de APIs (REST)
 App app contem seguintes requisitos funcionais:
 Identificação de um correntista;
 Extrato com as movimentações do correntista.
+
+
+A Santander Dev-Week, foi uma semana imersiva em que aborda assuntos sobre Full-Stack e Mobile, tecnologias como Java, Angular (Full-Stack) e Kotlin (Mobile), Mentorias diárias com profissionais do Santander e da DIO, contando como desenvolver sua carreira e a cultura empregada no Santander.
+
+O projeto foi desenvolvido com arquitetural MVVM, usando os componentes nativos do Android, Material Designer 3 e internacionalização entre os idiomas Português e Inglês. Com layouts seguindo boas práticas e diretrizes de design. 
