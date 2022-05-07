@@ -23,7 +23,7 @@ class WelcomeActivity : AppCompatActivity() {
             val accountHolder = Correntista(accountHolderId)
 
             val intent = Intent(this, BankStatementActivity::class.java).apply{
-                putExtra(BankStatementActivity.EXTRA_ACCOUNT_HOLDER, accountHolderId)
+                putExtra(BankStatementActivity.EXTRA_ACCOUNT_HOLDER, accountHolder)
             }
             startActivity(intent)
 

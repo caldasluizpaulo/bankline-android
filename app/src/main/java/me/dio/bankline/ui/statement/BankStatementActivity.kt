@@ -26,7 +26,6 @@ class BankStatementActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
-
-        Log.d("TESTE","Chegou o ID ${accountHolder.id}")
+        Log.d("TESTE", "${accountHolder.id}")
     }
 }
