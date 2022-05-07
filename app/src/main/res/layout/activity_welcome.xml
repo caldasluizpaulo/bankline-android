@@ -26,7 +26,7 @@
         android:layout_marginStart="@dimen/margin_default"
         android:layout_marginTop="@dimen/margin_default"
         android:layout_marginEnd="@dimen/margin_default"
-        android:hint="txt_account_holder_id"
+        android:hint="@string/txt_account_holder_id"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvWelcome">
