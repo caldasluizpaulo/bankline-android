@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/margin_default"
         android:layout_marginTop="32dp"
-        android:layout_marginRight="16dp"
+        android:layout_marginRight="@dimen/margin_default"
         android:text="@string/txt_welcome"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -26,7 +26,7 @@
         android:layout_marginStart="@dimen/margin_default"
         android:layout_marginTop="@dimen/margin_default"
         android:layout_marginEnd="@dimen/margin_default"
-        android:hint="@string/txt_account_holder_id"
+        android:hint="txt_account_holder_id"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvWelcome">
@@ -39,15 +39,14 @@
 
     </com.google.android.material.textfield.TextInputLayout>
 
-
     <Button
         android:id="@+id/btContinue"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="@dimen/margin_default"
         android:layout_marginTop="@dimen/margin_default"
         android:layout_marginEnd="@dimen/margin_default"
-        android:text="@string/tx_continue"
+        android:text="@string/txt_continue"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tilAccountHolderId" />
